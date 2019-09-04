@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+/* Heading Section Styling */
+
+.welcome-section {
+  background-image: url(../imgs/backgrounds/h_img.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.main-logo {
+  margin: 200px auto 25px;
+}
+
+h1.heading {
+  font-weight: bolder;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 3rem;
+  margin: 0 auto 5px;
+}
+
+p.tagline {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.mouse-logo {
+  margin: 120px auto 15px;
+}
