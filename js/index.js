@@ -24,5 +24,14 @@ $(document).ready(function() {
 			$(this).hide();
 			$("img.proj").show();
 		});
-	});
+  });
+  
+
+  $("div.portfolio").hover(function() {
+    $(this).find(".caption").fadeIn(100);
+  }, function() {
+    $(this).find(".caption").fadeOut(100);
+  });
 });
+
+
