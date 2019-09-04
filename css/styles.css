@@ -155,12 +155,28 @@ button {
 
 input[type="name"]::placeholder,
 input[type="email"]::placeholder,
-textarea::placeholder {
-	color: yellowgreen;
+textarea[name="message"]::placeholder {
+	color: #fff;
 }
 
 #name,
 #email,
 #message {
 	background: transparent;
+}
+
+/* Social Media Section */
+
+.social {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.social > img {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.social > h3 {
+  margin: 40px auto 10px;
 }
