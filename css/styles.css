@@ -31,3 +31,17 @@ p.tagline {
 .mouse-logo {
   margin: 120px auto 15px;
 }
+
+
+/* About Secton Styling */
+
+.about-us {
+  margin: 50px auto;
+  width: 75%;
+  max-width: 85%;
+}
+
+.about-us > p {
+  line-height: 2;
+  margin-top: 10px;
+}
