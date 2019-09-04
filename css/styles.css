@@ -2,6 +2,11 @@ body {
   text-align: center;
 }
 
+h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /* Heading Section Styling */
 
 .welcome-section {
@@ -44,4 +49,26 @@ p.tagline {
 .about-us > p {
   line-height: 2;
   margin-top: 10px;
+}
+
+
+/* Services Section Styling */
+.services {
+  background-image: url(../imgs/backgrounds/s_image.jpg);
+  height: 488px;
+  width: 100%;
+  background-size: cover;
+  padding-top: 135px;
+}
+
+.services-content > h2 {
+  color: #fff;
+}
+
+.services-content > p {
+  color: #fff;
+  line-height: 2;
+  width: 70%;
+  max-width: 80%;
+  margin: 20px auto;
 }
