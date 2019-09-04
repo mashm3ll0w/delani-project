@@ -1,96 +1,134 @@
 body {
-  text-align: center;
+	text-align: center;
 }
 
-h2{
-  font-size: 2rem;
-  font-weight: bold;
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
 }
 
 h3 {
-  font-size: 1.25rem;
-  margin-top: 5px;
+	font-size: 1.25rem;
+	margin-top: 5px;
 }
 
 /* Heading Section Styling */
 
 .welcome-section {
-  background-image: url(../imgs/backgrounds/h_img.jpg);
-  height: 100vh;
-  background-size: cover;
+	background-image: url(../imgs/backgrounds/h_img.jpg);
+	height: 100vh;
+	background-size: cover;
 }
 
 .main-logo {
-  margin: 200px auto 25px;
+	margin: 200px auto 25px;
 }
 
 h1.heading {
-  font-weight: bolder;
-  color: #fff;
-  line-height: 1.5;
-  font-size: 3rem;
-  margin: 0 auto 5px;
+	font-weight: bolder;
+	color: #fff;
+	line-height: 1.5;
+	font-size: 3rem;
+	margin: 0 auto 5px;
 }
 
 p.tagline {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
 }
 
 .mouse-logo {
-  margin: 120px auto 15px;
+	margin: 120px auto 15px;
 }
-
 
 /* About Secton Styling */
 
 .about-us {
-  margin: 50px auto;
-  width: 75%;
-  max-width: 85%;
+	margin: 50px auto;
+	width: 75%;
+	max-width: 85%;
 }
 
 .about-us > p {
-  line-height: 2;
-  margin-top: 10px;
+	line-height: 2;
+	margin-top: 10px;
 }
-
 
 /* Services Section Styling */
 .services {
-  background-image: url(../imgs/backgrounds/s_image.jpg);
-  height: 488px;
-  width: 100%;
-  background-size: cover;
-  padding-top: 135px;
+	background-image: url(../imgs/backgrounds/s_image.jpg);
+	height: 488px;
+	width: 100%;
+	background-size: cover;
+	padding-top: 135px;
 }
 
 .services-content > h2 {
-  color: #fff;
+	color: #fff;
 }
 
 .services-content > p {
-  color: #fff;
-  line-height: 2;
-  width: 70%;
-  max-width: 80%;
-  margin: 20px auto;
+	color: #fff;
+	line-height: 2;
+	width: 70%;
+	max-width: 80%;
+	margin: 20px auto;
 }
 
-
 .what-we-do {
-  margin-top: 70px;
+	margin-top: 70px;
 }
 
 .what-we-do > h2 {
-  margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
-#design-description, #dev-description, #proj-description {
-  display: none;
+#design-description,
+#dev-description,
+#proj-description {
+	display: none;
 }
 
-.col-md-4 > img, p {
-  cursor: pointer;
+.col-md-4 > img,
+p {
+	cursor: pointer;
+}
+
+/* Portfolio Section */
+
+.portfolio-section {
+	margin: 150px auto;
+}
+
+.portfolio > img {
+	margin: 20px;
+}
+
+.caption {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	margin-left: 15px;
+	background-color: rgba(46, 28, 10, 0.75);
+	width: 83%;
+	height: 80%;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+}
+
+.caption > h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25rem;
+	color: #fff;
+	border: solid #fff 4px;
+	height: 125px;
+	width: 155px;
+	position: relative;
+	display: inline-block;
+	top: 15px;
+	left: 0;
+	padding-top: 45px;
 }
