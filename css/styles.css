@@ -16,6 +16,8 @@ h3 {
 
 .welcome-section {
 	background-image: url(../imgs/backgrounds/h_img.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 	height: 100vh;
 	background-size: cover;
 }
@@ -61,6 +63,8 @@ p.tagline {
 	height: 488px;
 	width: 100%;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
 	padding-top: 135px;
 }
 
@@ -137,6 +141,8 @@ p {
 
 .contact-us {
 	background-image: url(../imgs/backgrounds/c_image.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 	padding: 20px 0 20px;
 }
 
