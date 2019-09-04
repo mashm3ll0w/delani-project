@@ -132,3 +132,35 @@ p {
 	left: 0;
 	padding-top: 45px;
 }
+
+/* Contact Us Section */
+
+.contact-us {
+	background-image: url(../imgs/backgrounds/c_image.jpg);
+	padding: 20px 0 20px;
+}
+
+.contact-us > h2 {
+	color: #fff;
+	margin: 30px auto;
+}
+
+textarea {
+	margin: 20px auto;
+}
+
+button {
+	margin-bottom: 20px;
+}
+
+input[type="name"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+	color: yellowgreen;
+}
+
+#name,
+#email,
+#message {
+	background: transparent;
+}
